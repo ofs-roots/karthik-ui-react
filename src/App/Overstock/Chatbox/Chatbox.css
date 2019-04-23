@@ -1,0 +1,44 @@
+.chatbox {
+    width: 700px;
+    height: 880px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    top: 60px;
+    right: 20px;
+    position: fixed;
+    float: right;
+}
+.chatArea {
+    width: 700px;
+    height: 770px;
+    overflow: auto;
+}
+.heading {
+    width: 700px;
+    height: 30px;
+    background-color: black;
+    color: aliceblue;
+}
+.inputArea {
+    bottom: 50px;
+    right: 35px;
+    position: fixed;
+    display: block;
+}
+.inputBox {
+    width: 600px;
+    height: 40px;
+}
+.sendButton {
+    height: 40px;
+    margin-left: 15px;
+}
+.userInput {
+    border: 1px solid red;
+    text-align: left;
+    color: black;
+}
+.response {
+    border: 1px solid blue;
+    text-align: right;
+}

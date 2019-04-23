@@ -1,0 +1,19 @@
+.header {
+    height: 40px;
+    background-color: black;
+  }
+.customerButton {
+    top: 10px;
+    left: 1600px;
+    position: fixed;
+}
+.cartButton {
+    top: 10px;
+    left: 1500px;
+    position: fixed;
+}
+.helpButton {
+    top: 10px;
+    left: 1700px;
+    position: fixed;
+}

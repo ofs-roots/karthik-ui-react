@@ -1,19 +1,43 @@
 .header {
     height: 40px;
+    color: aqua;
     background-color: black;
+    /* box-sizing: border-box; */
   }
-.customerButton {
-    top: 10px;
-    left: 1600px;
-    position: fixed;
+  .header nav {
+      height: 40px;
+}
+.header ul {
+    height: 40px;
+    /* text-align: right; */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.header li {
+    display: inline-block;
+    text-indent: 30px;
+    padding: 5px;
+}
+.header a {
+    color: khaki;
+}
+.header a:hover {
+    color: red;
+}
+
+/* .customerButton {
+top: 10px;
+left: 1600px;
+position: fixed;
 }
 .cartButton {
-    top: 10px;
-    left: 1500px;
-    position: fixed;
+top: 10px;
+left: 1530px;
+position: fixed;
 }
 .helpButton {
-    top: 10px;
-    left: 1700px;
-    position: fixed;
-}
+top: 10px;
+left: 1700px;
+position: fixed;
+} */
